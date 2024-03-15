@@ -1,2 +1,4 @@
 # Limet-IDE
-A code ide based entirely in the terminal. It has bad controls and bad syntax highlighting, but is technically usable.
+A code ide based entirely in the terminal. It has bad controls and bad syntax highlighting, but is technically usable. To use it, open a terminal and call it's executable with the argument being a file. If the file does not exist, it will be created. Currently, syntax highlighting is available (but bad) for Java, Python, and JavaScript, and will be chosen based of the file extension (.java, .py, .js). The program will print the file and you can input a line number, followed by a space, followed by the line to insert and the line will replace whatever is on that line. It is 0 indexed and blank lines aren't displayed. There are two commands. `save` will save the file and `quit` will exit the IDE.
+<br><br>
+You know how I said the syntax highlighting was bad? It is very bad. None of the languages have all or even close to all of the keywords highlighted and words will be highlighted even if they are part of a larger word. For example, the `int` in `print` will be highlighted.
